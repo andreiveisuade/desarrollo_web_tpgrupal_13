@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Monument";
+    src: url(/fonts/Monument-Ultrabold.otf);
+}
+
+.logo {
+    width: 2vw;
+    height: auto;
+}
+
+body {
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.img-fluid {
+    max-width: 60%;
+    height: auto;
+}
+
+h1 {
+    font-family: "Monument";
+    color: rgb(250, 250, 250);
+}
+
+.impulsando-text {
+    font-family: "Monument";
+    color: rgb(250, 250, 250);
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    --bs-btn-bg: rgb(143, 255, 26);
+    border: none;
+    color: black;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.btn-secondary {
+    --bs-btn-bg: rgb(197, 197, 197);
+    border: none;
+    color: black;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+h3 {
+    font-family: "Monument";
+    color: rgb(250, 250, 250);
+}
+
+h5 {
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+}
+
+.custom-size {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+
+/* NOSOTROS */
+.hero {
+    background-image: url('../assets/7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    position: relative;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 20px;
+    color: rgb(250, 250, 250);
+    font-family: "Monument";
+}
+
+.container-content {
+    max-width: 800px;
+    text-align: center;
+    padding: 30px;
+}
+
+.container-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.container-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.text-custom-green {
+    color: rgb(143, 255, 26);
+}
+
+.descripcion-nosotros {
+    color: rgb(250, 250, 250);
+    font-weight: lighter;
+}
+
+.main-font {
+    font-family: "Monument";
+}
+
+.titulo-nuestro-equipo {
+    color: rgb(143, 255, 26);
+    font-family: "Monument";
+}
+
+.nombres-equipo {
+    color: rgb(250, 250, 250);
+    font-family: "Monument";
+}
+
+.descripcion-equipo {
+    color: rgb(250, 250, 250);
+    font-family: "Raleway";
+}
+
+.imagen-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
