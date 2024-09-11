@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Nosotros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
@@ -29,10 +31,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav justify-content-lg-end w-100">
                     <li class="nav-item text-end text-lg-start">
-                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link text-light" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item text-end text-lg-start">
-                        <a class="nav-link text-light" href="../pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link active-page text-light" href="../pages/nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item text-end text-lg-start">
                         <a class="nav-link text-light" href="#">Servicios</a>
@@ -54,32 +56,35 @@
     <main>
         <section class="hero d-flex align-items-center justify-content-center text-center text-light">
             <div class="overlay">
-                <h1 class="display-5">SOBRE NOSOTROS</h1>
+                <h1 class="display-4 montserrat-bold white">SOBRE NOSOTROS</h1>
 
-            </div>
-        </section>
-
-        <section class="text-container">
-            <div class="container-content text-start">
-                <p>EN <span class="text-custom-green">TECHFLOW</span>, ESTAMOS COMPROMETIDOS CON LA TRANSFORMACION
-                    DIGITAL DE LAS EMPRESAS.</p>
-                <p>CREAMOS <span class="text-custom-green">SOLUCIONES TECNOLÓGICAS PERSONALIZADAS</span> QUE PERMITEN A
-                    NUESTROS SOCIOS MANTENERSE A LA VANGUARDIA EN UN ENTORNO EMPRESARIAL EN CONSTANTE EVOLUCIÓN.</p>
             </div>
         </section>
 
         <section class="container">
+            <div class="container-content text-start">
+                <p class="text-uppercase montserrat-bold white fs-3">en <span class="green">techflow</span>, estamos
+                    comprometidos con la transformacion digital de las empresas.</p>
+                <p class="text-uppercase montserrat-bold white fs-3">creamos <span class="green">soluciones tecnológicas
+                        personalizadas</span> que permiten a nuestros socios mantenerse a la vanguardia en un entorno
+                    empresarial en constante evolución.</p>
+            </div>
+        </section>
+
+        <section class="container my-5">
             <div class="row">
-                <div class="col-md-6">
-                    <h4 class="text-uppercase text-center text-custom-green main-font">nuestra visión</h4>
-                    <p class="text-justify descripcion-nosotros">
+                <div class="col-md-6 my-4 px-5">
+                    <h4 class="text-uppercase text-center text-custom-green main-font montserrat-bold green fs-2">nuestra
+                        visión</h4>
+                    <p class="text-justify descripcion-nosotros white fw-light px-5 fs-5">
                         Ser un referente global en la consultoría tecnológica, capacitando a empresas de todos los
                         tamaños para adaptarse y prosperar en la era digital.
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <h4 class="text-uppercase text-center text-custom-green main-font">nuestra misión</h4>
-                    <p class="text-justify descripcion-nosotros">
+                <div class="col-md-6 my-4 px-5">
+                    <h4 class="text-uppercase text-center text-custom-green main-font montserrat-bold green fs-2">nuestra
+                        misión</h4>
+                    <p class="text-justify descripcion-nosotros white fw-light px-5 fs-5">
                         Proporcionar a las empresas herramientas tecnológicas innovadoras y estrategias ágiles que
                         impulsen su crecimiento y transformación digital.
                     </p>
@@ -89,83 +94,97 @@
 
         <!-- nuestro equipo -->
 
-        <section class="container my-5">
-            <h2 class="mb-4 titulo-nuestro-equipo text-uppercase text-start fs-1">Nuestro equipo</h2>
-
-            <!-- URRIEL -->
-            <div class="row mb-5">
+        <section class="container container-nuestro-equipo">
+            <div class="row">
+                <h2 class="my-5 text-uppercase text-start fs-1 montserrat-bold green">Nuestro equipo</h2>
+            </div>
+            <!-- URIEL -->
+            <div class="row mb-5 mt-5">
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="../assets/perfilesTechFlow/uriel.png" alt="Descripción de la imagen 1"
-                        class="imagen-container w-100">
+                    <img src="../assets/perfilesTechFlow/uriel.png" alt="imagen personal de Uriel Grosso"
+                        class="img-fluid imagen-container mb-3">
                 </div>
-                <div class="col-md-9">
-                    <h4 class="text-uppercase nombres-equipo fs-2">uriel grosso</h4>
-                    <p class="descripcion-equipo fs-5">Solutions Architect especializado en cloud computing con
+                <div class="col-md-9 d-flex flex-column justify-content-center align-items-start">
+                    <h4 class="text-uppercase nombres-equipo fs-2 montserrat-bold green">uriel grosso</h4>
+                    <p class="descripcion-equipo fs-5 white">Solutions Architect especializado en cloud computing con
                         experiencia en AWS, Azure y GCP.</p>
-                    <button class="btn btn-primary text-uppercase">portfolio</button>
-                    <button class="btn btn-secondary text-uppercase">figma</button>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-primary text-uppercase">portfolio</button>
+                        <button class="btn btn-secondary text-uppercase">figma</button>
+                    </div>
                 </div>
             </div>
 
             <!-- ANDREI -->
             <div class="row mb-5">
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="../assets/perfilesTechFlow/andrei.png" alt="Descripción de la imagen 1"
-                        class="imagen-container w-100">
+                    <img src="../assets/perfilesTechFlow/andrei.png" alt="Imagen personal de Andrei Veis"
+                        class="img-fluid imagen-container">
                 </div>
-                <div class="col-md-9">
-                    <h4 class="text-uppercase nombres-equipo fs-2">andrei veis</h4>
-                    <p class="descripcion-equipo fs-5">Desarrollador de software y profesional del mundo audiovisual.
+                <div class="col-md-9 d-flex flex-column justify-content-center align-items-start">
+                    <h4 class="text-uppercase nombres-equipo fs-2 montserrat-bold green">andrei veis</h4>
+                    <p class="descripcion-equipo fs-5 white">Desarrollador de software y profesional del mundo
+                        audiovisual.
                     </p>
-                    <button class="btn btn-primary text-uppercase">portfolio</button>
-                    <button class="btn btn-secondary text-uppercase">figma</button>
+                    <div class="d-flex gap-2">
+                        <a href="https://andreiveisuade.github.io/tp_1_desarrollo_web_individual/"
+                            class="btn btn-primary text-uppercase" role="button" target="_blank">portfolio</a>
+                        <a href="https://www.figma.com/proto/l07i7jW0YxT6NFKVGUITIj/TP_1_andrei_veis?node-id=1-2&t=jiFbd908W0N7iUXC-1"
+                            class="btn btn-secondary text-uppercase" role="button" target="_blank">portfolio</a>
+                    </div>
                 </div>
             </div>
 
             <!-- FAUSTO -->
-
             <div class="row mb-5 mt-3">
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="../assets/perfilesTechFlow/fausto.png" alt="Descripción de la imagen 1"
-                        class="imagen-container w-100">
+                    <img src="../assets/perfilesTechFlow/fausto.png" alt="imagen personal de Fausto Lovera"
+                        class="img-fluid imagen-container">
                 </div>
-                <div class="col-md-9">
-                    <h4 class="text-uppercase nombres-equipo fs-2">fausto lovera</h4>
-                    <p class="descripcion-equipo fs-5">Programador con experiencia en HTML, CSS, Python y Visual Basic.
+                <div class="col-md-9 d-flex flex-column justify-content-center align-items-start">
+                    <h4 class="text-uppercase nombres-equipo fs-2 montserrat-bold green">fausto lovera</h4>
+                    <p class="descripcion-equipo fs-5 white">Programador con experiencia en HTML, CSS, Python y Visual
+                        Basic.
                     </p>
-                    <button class="btn btn-primary text-uppercase">portfolio</button>
-                    <button class="btn btn-secondary text-uppercase">figma</button>
+                    <div class="d-flex gap-2">
+                        <a href="https://faustolovera.github.io/proyecto_portafolio/"
+                            class="btn btn-primary text-uppercase" role="button" target="_blank">portfolio</a>
+                        <button class="btn btn-secondary text-uppercase">figma</button>
+                    </div>
                 </div>
             </div>
 
             <!-- ANDRES -->
-
             <div class="row mb-5 mt-3">
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="../assets/perfilesTechFlow/andres.png" alt="Descripción de la imagen 1"
-                        class="imagen-container w-100">
+                    <img src="../assets/perfilesTechFlow/andres.png" alt="imagen personal de Andrés Cecconi"
+                        class="img-fluid imagen-container">
                 </div>
-                <div class="col-md-9">
-                    <h4 class="text-uppercase nombres-equipo fs-2">andrés cecconi</h4>
-                    <p class="descripcion-equipo fs-5">Dessarollador front end especializado en HTML, CSS y JavaScript.
+                <div class="col-md-9 d-flex flex-column justify-content-center align-items-start">
+                    <h4 class="text-uppercase nombres-equipo fs-2 montserrat-bold green">andrés cecconi</h4>
+                    <p class="descripcion-equipo fs-5 white">Desarrollador front end especializado en HTML, CSS y
+                        JavaScript.
                     </p>
-                    <button class="btn btn-primary text-uppercase">portfolio</button>
-                    <button class="btn btn-secondary text-uppercase">figma</button>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-primary text-uppercase">portfolio</button>
+                        <button class="btn btn-secondary text-uppercase">figma</button>
+                    </div>
                 </div>
             </div>
 
             <!-- GASTON -->
-
             <div class="row mb-5 mt-3">
                 <div class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img src="../assets/perfilesTechFlow/gaston.png alt=" Descripción de la imagen 1"
-                        class="imagen-container w-100">
+                    <img src="../assets/perfilesTechFlow/gaston.png" alt="imagen personal de Gastón Martinez"
+                        class="img-fluid imagen-container">
                 </div>
-                <div class="col-md-9">
-                    <h4 class="text-uppercase nombres-equipo fs-2">gastón martinez</h4>
-                    <p class="descripcion-equipo fs-5">###################.</p>
-                    <button class="btn btn-primary text-uppercase">portfolio</button>
-                    <button class="btn btn-secondary text-uppercase">figma</button>
+                <div class="col-md-9 d-flex flex-column justify-content-center align-items-start">
+                    <h4 class="text-uppercase nombres-equipo fs-2 montserrat-bold green">gastón martinez</h4>
+                    <p class="descripcion-equipo fs-5 white">###################.</p>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-primary text-uppercase">portfolio</button>
+                        <button class="btn btn-secondary text-uppercase">figma</button>
+                    </div>
                 </div>
             </div>
 
