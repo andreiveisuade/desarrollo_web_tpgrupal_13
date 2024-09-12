@@ -36,7 +36,7 @@
 }
 
 .logo {
-    width: 3vw;
+    width: 4vw;
     height: auto;
     transition: transform 0.4s ease;
 }
@@ -123,6 +123,14 @@ body {
     font-size: 0.8rem;
 }
 
+.btn:hover {
+    background-color: black;
+    border: solid 1px chartreuse;
+    border-color: chartreuse;
+    color: chartreuse;
+
+}
+
 .custom-size {
     max-width: 40%;
     height: auto;
@@ -184,6 +192,10 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.misionContainer {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .container-nuestro-equipo {
     margin-top: 4em;
@@ -191,6 +203,12 @@ body {
 }
 
 @media (max-width: 992px) { 
+    h1 {
+        font-size: 4rem!important;
+    }
+    .logo {
+        width: 7vw;
+    }
     .misionContainer  div {
         display: flex;
         flex-direction: column!important;
@@ -200,13 +218,15 @@ body {
 }
 
 @media (max-width: 768px) { 
+    .logo {
+        width: 8vw;
+    }
     .container-nuestro-equipo div h2 {
         text-align: center!important;
     }
     .container-nuestro-equipo div {
         display: flex;
-        flex-direction: column!important;
-        align-items: center!important   ;
+        align-items: center!important;
     }
     .container-nuestro-equipo div a {
         width: 100% ;
@@ -217,9 +237,10 @@ body {
     .container-nuestro-equipo div p {
         text-align: center;
         padding: 1em;
+        text-align: justify;
+        text-justify: inter-word;
     }
     .container-nuestro-equipo div button {
         width: 100% ;
     }
 }
-
