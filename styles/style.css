@@ -125,10 +125,8 @@ body {
 
 .btn:hover {
     background-color: black;
-    border: solid 1px chartreuse;
     border-color: chartreuse;
     color: chartreuse;
-
 }
 
 .custom-size {
