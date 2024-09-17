@@ -142,11 +142,13 @@ body {
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 10px;
-    display: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .texto-incentivo {
@@ -155,6 +157,13 @@ body {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container-texto {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 .container-frase {
@@ -166,8 +175,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100px; /* Ajusta este valor según el tamaño que necesites */
-    min-width: 100%; /* Ajusta este valor según el tamaño que necesites */
+    min-height: 100px;
+    min-width: 100%; 
 }
 
 .texto-frase {
@@ -184,13 +193,20 @@ body {
     }
 }
 
+.contenido-servicio {
+    display: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .tarjeta-servicio {
     background-color: rgba(90, 89, 89, 0.3); 
     border-radius: 25px; 
     border: 2px solid rgba(143, 255, 26, 0.5); 
     padding: 10px; 
     margin-bottom: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(143, 255, 26, 0.7);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -200,19 +216,8 @@ body {
     text-align: center;
 }
 
-.tarjeta-servicio:hover {
-    box-shadow: 0 0 20px rgba(143, 255, 26, 0.7);
-}
-
-.service-content {
-    display: center;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
 .tarjeta-servicio img {
-    max-width: 75%;
+    max-width: 33%;
     height: auto;
     display: block;
     margin: 0 auto;
