@@ -18,7 +18,6 @@
 <body>
 
     <!-- NavBar -->
-
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-light ms-3" href="./index.html">
@@ -53,59 +52,62 @@
         </div>
     </nav>
 
-
     <main>
-
+        <!-- TITULO -->
         <section class="container-fluid hero-index">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <img src="./assets/hero.png" alt="Imagen de Hero" class="img-fluid">
                 </div>
             </div>
-            <section />
+        </section>
 
-            <section class="container d-flex flex-column align-items-start container-impulsando">
-                <div class="impulsando-text">
-                    <h2 class="montserrat-bold white">IMPULSANDO<br>LA<br>TRANSFORMACIÓN<br>DIGITAL<br>DE TU NEGOCIO</h2>
-                </div>
-                <a href="#contacto" class="btn btn-primary mt-3 text-uppercase montserrat-bold">Contáctanos</a>
-            </section>
+        <!-- INTRODUCCION -->
+        <section class="container d-flex flex-row align-items-center container-impulsando my-5">
+            <!-- TEXTO Y CTA-->
+            <div class="impulsando-text col-md-6">
+                <h2 class="raleway-bold text-white pb-4">Bienvenidos a TechFlow Consulting</h2>
+                <p class="text-white montserrat-regular justify-text pb-2">En TechFlow Consulting, nuestra misión es
+                    transformar tus ideas
+                    en realidad. Ofrecemos soluciones integrales en desarrollo web, bases de datos, backend, marketing
+                    digital, producción audiovisual y cloud computing. Nuestro objetivo es potenciar tu empresa con
+                    tecnología de vanguardia y creatividad, asegurando resultados excepcionales y personalizados.</p>
+                <h4 class="raleway-bold raleway-italic text-white">IMPULSANDO LA TRANSFORMACIÓN DIGITAL DE TU NEGOCIO
+                </h4>
+                <a href="./pages/contacto.html" class="btn btn-primary mt-3 text-uppercase montserrat-bold mt-4">Contáctanos</a>
+            </div>
 
-            <section class="container my-5">
-                <div class="row">
-                    <h3 class="text-center mb-2 montserrat-bold white">¿QUÉ HACEMOS?</h3>
-                </div>
 
-                <div class="row text-center">
+            <!-- IMAGEN SERVICIOS -->
+            <div class="container col-md-6 ps-5">
+                <!-- fila 1 -->
+                <div class="row text-center d-flex justify-content-center">
                     <div class="col-md-4 mb-4">
-                        <img src="./assets/4.png" alt="Estrategia Digital" class="img-fluid mb-3 custom-size"
-                            alt="imágen de lámpara">
+                        <a href="./pages/servicios.html"><img src="./assets/4.png" alt="Estrategia Digital" class="img-fluid mb-3 custom-size"
+                            alt="imágen de lámpara"></a>
                         <h5 class="text-uppercase white">Estrategia <br>Digital</h5>
-
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <img src="./assets/5.png" alt="Desarrollo de Software" class="img-fluid mb-3 custom-size">
-                        <h5 class="text-uppercase white">Desarrollo de <br>Software</h5>
-
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <img src="./assets/6.png" alt="Consultoría" class="img-fluid mb-3 custom-size">
-                        <h5 class="text-uppercase white">Consultoría</h5>
-
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col text-center">
-                        <a class="btn btn-primary" href="./pages/servicios.html">Conóceme más</a>
+                <!-- fila 2 -->
+                <div class="row text-center d-flex justify-content-between ">
+                    <div class="col-md-4 mb-4">
+                        <a href="./pages/servicios.html"><img src="./assets/5.png" alt="Desarrollo de Software" class="img-fluid mb-3 custom-size"></a>
+                        <h5 class="text-uppercase white">Desarrollo de Software y Base de Datos</h5>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <a href="./pages/servicios.html"><img src="./assets/6.png" alt="Consultoría" class="img-fluid mb-3 custom-size"></a>
+                        <h5 class="text-uppercase white">Arquitectura y Cloud Computing</h5>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+
 
     </main>
 
     <!-- footer -->
-
     <footer class="container-fluid bg-dark text-light text-center py-3">
         <p class="mb-0 mt-5 text-xs">&copy; 2024 Todos los derechos reservados</p>
     </footer>
