@@ -1,5 +1,4 @@
 /* FONTS */
-
 .montserrat-bold {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -24,8 +23,7 @@
     text-align: justify;
 }
 
-
-/* colors */
+/* COLORS */
 
 .white {
     color: rgb(250, 250, 250);
@@ -38,6 +36,8 @@
 .active-page {
     color: rgb(143, 255, 26) !important;
 }
+
+/* NAVBAR */
 
 .logo {
     width: 4vw;
@@ -66,7 +66,7 @@
     }
 }
 
-/* ANIMACION UNDERLINE */
+/* animacion underline */
 .nav-link {
     text-decoration: none;
     position: relative;
@@ -92,6 +92,8 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+
+/* SECCION HOME */
 body {
     background-color: black;
     font-family: "Raleway", sans-serif;
@@ -153,7 +155,10 @@ body {
     height: auto;
 }
 
-/* NOSOTROS */
+
+
+/* SECCION NOSOTROS */
+/* Titulo */
 .hero {
     background-image: url('../assets/7.png');
     background-position: center;
@@ -183,36 +188,9 @@ body {
     z-index: 1;
 }
 
-.text-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    padding: 20px;
-}
-
-
-.container-content {
-    max-width: 800px;
-    padding: 30px;
-    margin-top: 4em;
-    margin-bottom: 4em;
-}
-
-.container-content p {
-    line-height: 1.6;
-    margin-bottom: 2em;
-}
-
 .imagen-container {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.misionContainer {
-    text-align: justify;
-    text-justify: inter-word;
+    width: 150px;
+    height: 150px;
 }
 
 .container-nuestro-equipo {
@@ -220,29 +198,37 @@ body {
     margin-bottom: 4em;
 }
 
+.container-integrantes {
+    background-color: rgba(90, 89, 89, 0.3);
+    border-radius: 25px;
+    /* box-shadow: 0 0 1em rgb(143, 255, 26); */
+    padding: 3em;
+}
+
+
+
+
+/* MEDIA QUERIES */
 @media (max-width: 992px) {
     h1 {
         font-size: 3.75rem !important;
     }
-
     .logo {
         width: 7vw;
     }
-
-    .misionContainer div {
-        display: flex;
-        flex-direction: column !important;
-        justify-content: center;
-        width: 100%;
-    }
-
     .container-impulsando {
         flex-direction: column-reverse;
     }
-
     .custom-size {
         max-width: 50%!important;
         height: auto;
+    }
+    .container-integrantes {
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .integrantes-box {
+        margin: 2em 0!important;
     }
 }
 
@@ -250,51 +236,29 @@ body {
     .logo {
         width: 8vw;
     }
-
-    .container-nuestro-equipo div h2 {
-        text-align: center !important;
-    }
-
-    .container-nuestro-equipo div {
-        display: flex;
-        align-items: center !important;
-    }
-
-    .container-nuestro-equipo div a {
-        width: 100%;
-    }
-
     .container-nuestro-equipo div h4 {
         padding: 1em;
     }
-
-    .container-nuestro-equipo div p {
-        text-align: center;
-        padding: 1em;
-        text-align: justify;
-        text-justify: inter-word;
-    }
-
-    .container-nuestro-equipo div button {
-        width: 100%;
-    }
-
     .custom-size {
         max-width: 20%!important;
     }
-
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .img-fluid {
-        max-width: 100%;
+    .integrantes-box {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center;
+        margin-top: 0!important;
+    }
+    .col-2 {
+        margin-bottom: 2em!important;
+    }
+    .container-integrantes {
+        padding: 2em 0!important;
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .margin-paragraphs {
         padding-right: 1rem !important;
         padding-left: 1rem !important;
     }
-}
+} */
