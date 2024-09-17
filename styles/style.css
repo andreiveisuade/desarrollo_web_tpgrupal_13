@@ -26,11 +26,11 @@
 /* COLORS */
 
 .white {
-    color: rgb(250, 250, 250);
+    color: rgb(250, 250, 250) !important;
 }
 
 .green {
-    color: rgb(143, 255, 26);
+    color: rgb(143, 255, 26) !important;
 }
 
 .active-page {
@@ -204,6 +204,8 @@ body {
     /* box-shadow: 0 0 1em rgb(143, 255, 26); */
     padding: 3em;
 }
+
+
 
 
 
