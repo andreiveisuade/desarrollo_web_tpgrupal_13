@@ -1,0 +1,25 @@
+.tarjeta-servicio img  {
+    max-width: 200px;
+    height: auto;
+}
+
+.border-green {
+    border: 2px solid rgba(143, 255, 26, 0.5); 
+    box-shadow: 0 0 10px rgba(143, 255, 26, 0.7);
+    border-radius: 50px !important;
+    
+}
+
+.transitio {
+    transform: scale(1.1);
+}
+
+.border-green:hover {
+    transform: scale(1.01);
+} 
+
+@media (max-width: 475px) {
+    .pequeño {
+        font-size: 15px;
+    }
+}

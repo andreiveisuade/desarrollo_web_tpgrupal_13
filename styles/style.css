@@ -51,7 +51,7 @@
 }
 
 
-/* ANIMATION LOGO */
+/* ANIMACION LOGO */
 @keyframes logo-rotate {
     0% {
         transform: rotate(-10deg);
@@ -201,8 +201,11 @@ body {
 .container-integrantes {
     background-color: rgba(90, 89, 89, 0.3);
     border-radius: 25px;
-    /* box-shadow: 0 0 1em rgb(143, 255, 26); */
     padding: 3em;
+    border: 2px solid rgba(143, 255, 26, 0.5);
+    box-shadow: 0 0 20px rgba(143, 255, 26, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(128, 128, 128, 0.3);
 }
 
 
@@ -258,9 +261,9 @@ body {
     }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
     .margin-paragraphs {
         padding-right: 1rem !important;
         padding-left: 1rem !important;
     }
-} */
+}
